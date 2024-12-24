@@ -1,0 +1,9 @@
+Class:
+    A class in Java is a template for an object. We can define methods and variables inside a class.
+    When we create an object for the class, the object has access to these methods and variables.
+
+
+Object:
+    An object is a running instance of a class. When we create an object for a class, we can access the
+    methods and variables of that class using these object.
+
