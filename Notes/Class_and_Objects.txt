@@ -30,10 +30,11 @@ However, we can do this in one step
 				       	Car myCar = new Car(); // This will create the new object of class car and then assign the memory address 
 											of the object to the reference varibale myCar.
 						Here "Car myCar" is called declaration.
-						
-						In "new Car();" the use of the new keyword to create the object and allocate memory in heap area is called instantiation, 
+
+						In "new Car();" the use of the new keyword to create the object and allocate memory in heap area is called instantiation,
 										while Car() calls the constructor of the Car class to initialize the object (assign initial values).
-										
+											of the object to the reference variable myCar.
+
 
 >> The new keyword does dynamic memory allocation, i.e. it allocates memory for the object only duirng the run time.
 
