@@ -7,3 +7,28 @@ Object:
     An object is a running instance of a class. When we create an object for a class, we can access the
     methods and variables of that class using these object.
 
+Instance Variables:
+	The properties or attributes defined inside a class are called instance variables.
+	
+Instance Methods:
+	The methods defined inside a class are called instance methods.
+	
+	
+Object Creation:
+
+To create an object of a Class we use the following syntax.
+
+						Car myCar;  // This line creates a reference variable of name myCar in stack memory, it will hold the address of the object
+										when it is created, at this point it is a placeholder with no address.
+										
+						myCar = new Car(); // A new object of the Car class is created using the new keyword, and the address is assigned to myCar reference variable.
+											At this point myCar reference variable holds the address of the object.
+											
+											
+However, we can do this in one step
+					
+				       	Car myCar = new Car(); // This will create the new object of class car and then assign the memory address 
+											of the object to the reference varibale myCar.
+										
+						
+
