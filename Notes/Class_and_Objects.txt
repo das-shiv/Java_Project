@@ -28,7 +28,7 @@ To create an object of a Class we use the following syntax.
 However, we can do this in one step
 					
 				       	Car myCar = new Car(); // This will create the new object of class car and then assign the memory address 
-											of the object to the reference varibale myCar.
+											of the object to the reference variable myCar.
 										
 						
 
