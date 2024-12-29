@@ -7,7 +7,7 @@ public class Array {
         Scanner input = new Scanner(System.in);  //created a scanner to take user input
         System.out.print("How many numbers you want to add ? ");
         int count = input.nextInt();  //count variable stores the number of items user wants to give, i.e. the total number of items user wants to add.
-        Double[] num = new Double[count]; // created am array named num that stores double type data.
+        Double[] num = new Double[count]; // created an array named num that stores double type data.
 
         System.out.println("Please enter " + count + " number of elements.");
         // this loop runs for the number of times user wants to enter data
