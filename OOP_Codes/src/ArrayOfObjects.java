@@ -37,11 +37,6 @@ public class ArrayOfObjects{
             stud.studying();
 
         }
-
-
-
-
-
-
+        
     }
 }

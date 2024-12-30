@@ -1,0 +1,54 @@
+String:
+public class Name {
+    public static void main(String[] args) {
+        String name = "shiv";
+        System.out.println("Hello " + name);
+    }
+}
+
+- In Java String is not a primitive data type like int, double, float, char. String is a Class.
+
+- String are immutable, i.e. once created we can not modify it.
+
+- We can store strings in by creating a variable (name) of the String class.
+
+- We can also write it like,
+
+        String name = new String();
+        System.out.println(name);   // It will print the memory address of the reference variable name
+
+        String name = new String("shiv"); // Passing the value to the name variable
+
+        System.out.println(name);       // It will print the value of name variable i.e. shiv
+
+        name = shiv
+
+- The String class also comes with some methods we can use like:
+
+System.out.println(name.length()); // Output: 4
+
+System.out.println(name.charAt(0)); // Output: s
+
+System.out.println(name.toUpperCase()); // Output: SHIV
+
+System.out.println(name.toUpperCase()); // Output: SHIV
+
+System.out.println(name.substring(0, 2)); // Output: sh
+
+String name3 = "Shiv";
+System.out.println(name.equals(name3));            // Output: false
+System.out.println(name.equalsIgnoreCase(name3));  // Output: true
+
+
+System.out.println(name.contains("hi")); // Output: true
+
+
+System.out.println(name.replace("i", "e")); // Output: shev
+
+
+String name4 = "  shiv  ";
+System.out.println(name4.trim()); // Output: shiv
+
+String sentence = "shiv is coding";
+String[] words = sentence.split(" ");
+System.out.println(words[1]); // Output: is
