@@ -1,0 +1,5 @@
+Static:
+
+- The static keyword is used in java to make variables and methods as static.
+- If any class variable is declared as static, it can be accessed using the class name without creating an object.
+- All the objects of that class gets the same static variable value.
