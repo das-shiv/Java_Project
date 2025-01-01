@@ -3,3 +3,14 @@ Static:
 - The static keyword is used in java to make variables and methods as static.
 - If any class variable is declared as static, it can be accessed using the class name without creating an object.
 - All the objects of that class gets the same static variable value.
+
+
+Static Method:
+
+- If any method is made static then we can access the method using the class name without
+  creating any object.
+
+- We can not access non static variables from inside the static method directly.
+- If we pass an object of the class as an argument while calling the static method, we can
+  access the non static variables belonging to that object.
+

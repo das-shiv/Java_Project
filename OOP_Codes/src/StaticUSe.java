@@ -28,7 +28,7 @@ class mobile{
         System.out.println("After updating the static variable with obj1.");
         obj1.print();
         obj2.print();
-        System.out.println("Accessing the static variable without any object");
+        System.out.println("Accessing the static variable without any object, using class name");
         System.out.println(StaticUSe.type);  // accessing the static variable directly without any object.
 
 
