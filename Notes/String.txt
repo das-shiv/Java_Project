@@ -14,14 +14,24 @@ public class Name {
 
 - We can also write it like,
 
-        String name = new String();
-        System.out.println(name);   // It will print the memory address of the reference variable name
+        String name = new String(); // This initialize a String reference variable name, it points to stack pool in heap area where an empty string ("") is stored.
+        System.out.println(name);   // This will print the empty string in name variable. i.e. it will print a new line.
 
         String name = new String("shiv"); // Passing the value to the name variable
 
         System.out.println(name);       // It will print the value of name variable i.e. shiv
 
-        name = shiv
+        Example 2: String are immutable
+        String name = "shiv" // the value shiv is stored in string pool in heap area, the reference variable points to this address in string pool.
+        String name = "raju" // "This stores the value raju in the String pool, and the reference variable now points to
+                                raju. The "shiv" object is still present in the String pool and will typically remain there
+                                 for the lifetime of the application. It is not removed via regular garbage collection,
+                                  and can only be removed if the class loader associated with the string is unloaded
+                                  (e.g., in a custom class loading scenario)."
+
+
+        String user = "raju" // no new string raju will be created in string pool because raju already exists.
+                        the variable user will also point to the location of raju in string pool.
 
 - The String class also comes with some methods we can use like:
 
