@@ -10,7 +10,7 @@ public class Driver {
         String carColor = carDetails.nextLine();
         System.out.println("How much fuel in liters do you have: ");
         int initialFuelLevel = carDetails.nextInt();
-        carDetails.close();
+        //carDetails.close();
 
         myCar.drive(carModel , carColor, initialFuelLevel);
 
